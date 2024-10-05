@@ -1,0 +1,25 @@
+.cart-container img {
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.cart-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-info button {
+  width: 90%;
+  margin-bottom: 10px;
+}
